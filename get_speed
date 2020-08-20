@@ -1,0 +1,6 @@
+speedtest-cli --csv-header >> speed.csv
+
+while true
+do
+	speedtest-cli --csv >> speed.csv
+done
